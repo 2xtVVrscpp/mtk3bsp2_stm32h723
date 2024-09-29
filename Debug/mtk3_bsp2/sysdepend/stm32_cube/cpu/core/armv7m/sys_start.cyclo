@@ -1,0 +1,4 @@
+/home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/mtk3_bsp2/include/tk/sysdepend/stm32_cube/cpu/core/armv7m/syslib.h:75:13:out_w	1
+/home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/mtk3_bsp2/include/tk/sysdepend/stm32_cube/cpu/core/armv7m/syslib.h:92:11:in_w	1
+/home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/mtk3_bsp2/sysdepend/stm32_cube/halif.h:30:17:halif_get_sysclk	1
+../mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m/sys_start.c:47:13:knl_start_mtkernel	3

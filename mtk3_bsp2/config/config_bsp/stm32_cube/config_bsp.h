@@ -39,5 +39,6 @@
  */
 #define DEVCNF_USE_HAL_IIC		1	// I2C communication device
 #define DEVCNF_USE_HAL_ADC		1	// A/D conversion device
+#define DEVCNF_USE_HAL_UART		1	// UART communication device
 
 #endif	/* _MTKBSP_BSP_CONFIG_DEVENV_H_ */

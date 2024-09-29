@@ -79,6 +79,18 @@ EXPORT ER knl_start_device( void )
 #endif
 #endif	/* DEVCNF_USE_HAL_ADC */
 
+#if DEVCNF_USE_HAL_UART
+//	IMPORT UART_HandleTypeDef huart1;
+//	err = dev_init_hal_uart(DEV_HAL_UART1, &huart1);
+//	if(err < E_OK) return err;
+#if defined(MTKBSP_NUCLEO_STM32H723)
+	IMPORT UART_HandleTypeDef huart4;
+	err = dev_init_hal_uart(DEV_HAL_UART4, &huart4);
+	if(err < E_OK) return err;
+#endif
+#endif
+/* DEVCNF_USE_HAL_UART */
+
 	return err;
 }
 

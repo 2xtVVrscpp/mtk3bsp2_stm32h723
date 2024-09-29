@@ -1,0 +1,5 @@
+../Application/app_main.c:66:10:open_device	5
+../Application/app_main.c:94:10:get_str_siz	3
+../Application/app_main.c:105:12:read_tsk	5
+../Application/app_main.c:146:12:send_tsk	5
+../Application/app_main.c:183:15:usermain	1

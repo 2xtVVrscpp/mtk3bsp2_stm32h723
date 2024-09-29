@@ -207,6 +207,8 @@
 "./mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/sysdepend/hal_adc_stm32h7.o"
 "./mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/sysdepend/hal_adc_stm32l4.o"
 "./mtk3_bsp2/sysdepend/stm32_cube/device/hal_i2c/hal_i2c.o"
+"./mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_ser_bk.o"
+"./mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.o"
 "./mtk3_bsp2/sysdepend/stm32_cube/devinit.o"
 "./mtk3_bsp2/sysdepend/stm32_cube/hw_setting.o"
 "./mtk3_bsp2/sysdepend/stm32_cube/power_save.o"

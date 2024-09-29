@@ -1,0 +1,4 @@
+/home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/mtk3_bsp2/sysdepend/stm32_cube/halif.h:40:17:halif_get_pclk1	1
+../mtk3_bsp2/sysdepend/stm32_cube/lib/libtm/nucleo_stm32h723/tm_com.c:54:13:tm_snd_dat	4
+../mtk3_bsp2/sysdepend/stm32_cube/lib/libtm/nucleo_stm32h723/tm_com.c:66:13:tm_rcv_dat	3
+../mtk3_bsp2/sysdepend/stm32_cube/lib/libtm/nucleo_stm32h723/tm_com.c:76:13:tm_com_init	1

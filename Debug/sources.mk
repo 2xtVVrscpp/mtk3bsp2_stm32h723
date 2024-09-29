@@ -105,6 +105,7 @@ mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m \
 mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc \
 mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/sysdepend \
 mtk3_bsp2/sysdepend/stm32_cube/device/hal_i2c \
+mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart \
 mtk3_bsp2/sysdepend/stm32_cube \
 mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m \
 mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/stm32f4 \

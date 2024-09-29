@@ -1,0 +1,4 @@
+/home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/mtk3_bsp2/include/tk/sysdepend/stm32_cube/cpu/core/armv7m/syslib.h:92:11:in_w	16	static
+../mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/wusec_armv7m.c:25:12:wait_us	40	static
+../mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/wusec_armv7m.c:49:13:WaitUsec	16	static
+../mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/wusec_armv7m.c:57:13:WaitNsec	16	static

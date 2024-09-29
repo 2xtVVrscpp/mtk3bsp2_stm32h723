@@ -1,0 +1,17 @@
+/home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m/cpu_status.h:69:13:knl_EnterTaskIndependent	1
+/home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m/cpu_status.h:73:13:knl_LeaveTaskIndependent	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:66:12:HAL_UART_Callback	3
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:85:6:HAL_UART_RxCpltCallback	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:90:6:HAL_UART_TxCpltCallback	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:95:6:HAL_UART_MemRxCpltCallback	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:100:6:HAL_UART_MemTxCpltCallback	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:105:6:HAL_UART_ErrorCallback	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:110:6:HAL_UART_AbortCpltCallback	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:115:10:read_data	4
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:143:10:write_data	4
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:178:10:dev_uart_openfn	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:190:10:dev_uart_closefn	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:199:10:dev_uart_readfn	2
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:215:10:dev_uart_writefn	2
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:231:10:dev_uart_eventfn	1
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/hal_uart.c:239:11:dev_init_hal_uart	5

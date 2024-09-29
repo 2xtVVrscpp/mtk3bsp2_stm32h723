@@ -43,4 +43,8 @@
 #include <sysdepend/stm32_cube/device/hal_adc/hal_adc.h>
 #endif
 
+#if DEVCNF_USE_HAL_UART
+#include <sysdepend/stm32_cube/device/hal_uart/hal_uart.h>
+#endif
+
 #endif	/* _DEV_HAL_DEVICE_H_ */

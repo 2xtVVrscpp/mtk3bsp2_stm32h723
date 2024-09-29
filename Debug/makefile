@@ -25,6 +25,7 @@ RM := rm -rf
 -include mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/stm32f4/subdir.mk
 -include mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/subdir.mk
 -include mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/subdir.mk
+-include mtk3_bsp2/sysdepend/stm32_cube/device/hal_uart/subdir.mk
 -include mtk3_bsp2/sysdepend/stm32_cube/device/hal_i2c/subdir.mk
 -include mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/sysdepend/subdir.mk
 -include mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/subdir.mk
@@ -157,8 +158,8 @@ all: main-build
 main-build: mtk3bsp2_stm32h723.elf secondary-outputs
 
 # Tool invocations
-mtk3bsp2_stm32h723.elf mtk3bsp2_stm32h723.map: $(OBJS) $(USER_OBJS) D:\dev\mtkernel\dev_mtk3bsp2_20000B1\mtk3bsp2_stm32h723\STM32H723ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "mtk3bsp2_stm32h723.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\dev\mtkernel\dev_mtk3bsp2_20000B1\mtk3bsp2_stm32h723\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mtk3bsp2_stm32h723.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+mtk3bsp2_stm32h723.elf mtk3bsp2_stm32h723.map: $(OBJS) $(USER_OBJS) /home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/STM32H723ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "mtk3bsp2_stm32h723.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/home/masayukigondo/Documents/workspace/sample/mtk3bsp2_stm32h723/STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mtk3bsp2_stm32h723.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
